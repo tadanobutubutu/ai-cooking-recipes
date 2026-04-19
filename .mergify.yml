@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automerge Jules and Devin PRs
     conditions:
-      - author=jules-ai
+      - author=google-labs-jules[bot]
       - author=devin-ai-integration[bot]
       - base=main
       - -draft
@@ -13,7 +13,7 @@ pull_request_rules:
 
   - name: Comment on unauthorized PRs
     conditions:
-      - author!=jules-ai
+      - author!=google-labs-jules[bot]
       - author!=devin-ai-integration[bot]
     actions:
       comment:
