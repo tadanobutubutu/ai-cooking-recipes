@@ -13,3 +13,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 ## License
 
 [CC0 1.0 Universal](LICENSE) — Public Domain
+
+## Inspiration
+
+This project was inspired by [blinry/soft-drink-recipes](https://github.com/blinry/soft-drink-recipes).

@@ -22,7 +22,7 @@ jobs:
             echo "PR Author: $PR_AUTHOR"
 
             # Replace with the actual GitHub usernames of Jules and Devin
-            ALLOWED_AUTHORS="jules-ai devin-ai"
+            ALLOWED_AUTHORS="jules-ai devin-ai-integration[bot]"
 
             if echo "$ALLOWED_AUTHORS" | grep -qw "$PR_AUTHOR"; then
               echo "PR Author $PR_AUTHOR is allowed. Merging PR #$PR_NUMBER..."

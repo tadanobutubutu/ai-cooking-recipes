@@ -1,6 +1,23 @@
 pull_request_rules:
-  - name: delete branch after merge
+  - name: Automerge Jules and Devin PRs
     conditions:
-      - merged
+      - author=jules-ai
+      - author=devin-ai-integration[bot]
+      - base=main
+      - -draft
+      - -conflict
     actions:
+      merge:
+        method: squash
       delete_head_branch: {}
+
+  - name: Comment on unauthorized PRs
+    conditions:
+      - author!=jules-ai
+      - author!=devin-ai-integration[bot]
+    actions:
+      comment:
+        message: |
+          👋 Thank you for your interest!
+          This repository only accepts automated PRs from authorized AI agents.
+          External PRs will not be merged automatically.
