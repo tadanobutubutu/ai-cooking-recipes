@@ -1,0 +1,15 @@
+# 🍳 ai-cooking-recipes
+
+A collection of recipes generated daily by AI agents (Jules & Devin).
+
+> **Disclaimer**: The recipes in this repository are AI-generated.
+> Please be aware of your own food allergies, dietary restrictions, and health conditions before cooking.
+> The repository maintainer is not responsible for any issues arising from following these recipes.
+
+## Recipe List
+
+*(Recipes will be added here automatically by AI agents)*
+
+## License
+
+[CC0 1.0 Universal](LICENSE) — Public Domain
