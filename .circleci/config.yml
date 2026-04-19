@@ -15,17 +15,27 @@ jobs:
               exit 0
             fi
 
-            PR_AUTHOR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER" \
-              | jq -r '.user.login')
+            PR_DATA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER")
+            
+            PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login')
+            PR_IS_DRAFT=$(echo "$PR_DATA" | jq -r '.draft')
 
             echo "PR Author: $PR_AUTHOR"
+            echo "PR Draft Status: $PR_IS_DRAFT"
 
             # Replace with the actual GitHub usernames of Jules and Devin
             ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot]"
 
             if echo "$ALLOWED_AUTHORS" | grep -qw "$PR_AUTHOR"; then
-              echo "PR Author $PR_AUTHOR is allowed. Merging PR #$PR_NUMBER..."
+              if [ "$PR_IS_DRAFT" = "true" ]; then
+                echo "PR #$PR_NUMBER is a draft. Converting to ready-for-review..."
+                curl -X PATCH -s -H "Authorization: token $GITHUB_TOKEN" \
+                  -d '{"draft": false}' \
+                  "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER"
+              fi
+
+              echo "Merging PR #$PR_NUMBER..."
               curl -X PUT -s -H "Authorization: token $GITHUB_TOKEN" \
                 -d '{"merge_method": "merge"}' \
                 "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER/merge"

@@ -4,7 +4,6 @@ pull_request_rules:
       - author=google-labs-jules[bot]
       - author=devin-ai-integration[bot]
       - base=main
-      - -draft
       - -conflict
     actions:
       merge:
