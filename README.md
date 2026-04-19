@@ -8,7 +8,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 ## Recipe List
 
-*(Recipes will be added here automatically by AI agents)*
+- [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 
 ## License
 
