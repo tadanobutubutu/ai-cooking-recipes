@@ -1,0 +1,40 @@
+version: 2.1
+
+jobs:
+  check-and-automerge:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - run:
+          name: Check PR author and automerge if allowed
+          command: |
+            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$')
+
+            if [ -z "$PR_NUMBER" ]; then
+              echo "No PR number found, skipping."
+              exit 0
+            fi
+
+            PR_AUTHOR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER" \
+              | jq -r '.user.login')
+
+            echo "PR Author: $PR_AUTHOR"
+
+            # Replace with the actual GitHub usernames of Jules and Devin
+            ALLOWED_AUTHORS="jules-ai devin-ai"
+
+            if echo "$ALLOWED_AUTHORS" | grep -qw "$PR_AUTHOR"; then
+              echo "PR Author $PR_AUTHOR is allowed. Merging PR #$PR_NUMBER..."
+              curl -X PUT -s -H "Authorization: token $GITHUB_TOKEN" \
+                -d '{"merge_method": "merge"}' \
+                "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER/merge"
+            else
+              echo "PR Author $PR_AUTHOR is not allowed. Skipping automerge."
+              exit 0
+            fi
+
+workflows:
+  on-pull-request:
+    jobs:
+      - check-and-automerge
