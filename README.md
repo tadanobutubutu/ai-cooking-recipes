@@ -9,6 +9,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 ## Recipe List
 
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
+- [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 
 ## License
 
