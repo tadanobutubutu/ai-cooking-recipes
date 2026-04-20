@@ -1,32 +1,49 @@
+queue_rules:
+  - name: default
+    merge_conditions: []
+
 pull_request_rules:
-  - name: Automerge Jules PRs
+  - name: 🤖 Auto-merge Jules PRs
     conditions:
       - author=google-labs-jules[bot]
-      - base=main
       - -conflict
+      - or:
+        - check-success=wip
+        - check-neutral=wip
+        - check-skipped=wip
     actions:
+      review:
+        type: APPROVE
+        message: "✅ Auto-approved by Mergify"
       merge:
         method: squash
-        commit_message_template: null
       delete_head_branch: {}
+      comment:
+        message: "✅ Automatically merged by Mergify Bot"
 
-  - name: Automerge Devin PRs
+  - name: 🤖 Auto-merge Devin PRs
     conditions:
       - author=devin-ai-integration[bot]
-      - base=main
       - -conflict
+      - or:
+        - check-success=wip
+        - check-neutral=wip
+        - check-skipped=wip
     actions:
+      review:
+        type: APPROVE
+        message: "✅ Auto-approved by Mergify"
       merge:
         method: squash
       delete_head_branch: {}
+      comment:
+        message: "✅ Automatically merged by Mergify Bot"
 
-  - name: Comment on unauthorized PRs
+  - name: 💬 Comment on unauthorized PRs
     conditions:
       - author!=google-labs-jules[bot]
       - author!=devin-ai-integration[bot]
     actions:
       comment:
         message: |
-          👋 Thank you for your interest!
-          This repository only accepts automated PRs from authorized AI agents.
-          External PRs will not be merged automatically.
+          👋 このリポジトリは認可されたAIエージェントのPRのみ受け付けています。
