@@ -1,7 +1,17 @@
 pull_request_rules:
-  - name: Automerge Jules and Devin PRs
+  - name: Automerge Jules PRs
     conditions:
       - author=google-labs-jules[bot]
+      - base=main
+      - -conflict
+    actions:
+      merge:
+        method: squash
+        commit_message_template: null
+      delete_head_branch: {}
+
+  - name: Automerge Devin PRs
+    conditions:
       - author=devin-ai-integration[bot]
       - base=main
       - -conflict

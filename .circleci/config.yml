@@ -6,7 +6,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-          name: Check PR author and automerge if allowed
+          name: Check PR author and force-merge if allowed
           command: |
             PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$')
 
@@ -17,30 +17,38 @@ jobs:
 
             PR_DATA=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER")
-            
+
             PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login')
             PR_IS_DRAFT=$(echo "$PR_DATA" | jq -r '.draft')
+            PR_SHA=$(echo "$PR_DATA" | jq -r '.head.sha')
 
             echo "PR Author: $PR_AUTHOR"
-            echo "PR Draft Status: $PR_IS_DRAFT"
+            echo "PR Draft: $PR_IS_DRAFT"
+            echo "PR SHA: $PR_SHA"
 
-            # Replace with the actual GitHub usernames of Jules and Devin
             ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot]"
 
-            if echo "$ALLOWED_AUTHORS" | grep -qw "$PR_AUTHOR"; then
+            if echo "$ALLOWED_AUTHORS" | grep -qF "$PR_AUTHOR"; then
               if [ "$PR_IS_DRAFT" = "true" ]; then
-                echo "PR #$PR_NUMBER is a draft. Converting to ready-for-review..."
+                echo "Converting draft PR to ready-for-review..."
                 curl -X PATCH -s -H "Authorization: token $GITHUB_TOKEN" \
+                  -H "Content-Type: application/json" \
                   -d '{"draft": false}' \
                   "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER"
+                sleep 3
               fi
 
-              echo "Merging PR #$PR_NUMBER..."
-              curl -X PUT -s -H "Authorization: token $GITHUB_TOKEN" \
-                -d '{"merge_method": "merge"}' \
-                "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER/merge"
+              echo "Force merging PR #$PR_NUMBER..."
+              MERGE_RESPONSE=$(curl -X PUT -s \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                -H "Content-Type: application/json" \
+                -d "{\"merge_method\": \"squash\", \"sha\": \"$PR_SHA\"}" \
+                "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER/merge")
+
+              echo "Merge response: $MERGE_RESPONSE"
             else
-              echo "PR Author $PR_AUTHOR is not allowed. Skipping automerge."
+              echo "PR Author $PR_AUTHOR is not allowed. Skipping."
               exit 0
             fi
 
