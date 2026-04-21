@@ -6,7 +6,7 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-          name: Convert draft to ready-for-review for authorized AI agents
+          name: Convert draft to ready-for-review via GraphQL for authorized AI agents
           command: |
             set +e
 
@@ -16,26 +16,38 @@ jobs:
               exit 0
             fi
 
+            # Get PR data including node_id (needed for GraphQL)
             PR_DATA=$(curl -sf \
               -H "Authorization: token $GITHUB_TOKEN" \
               "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER" || echo "{}")
 
             PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login // "unknown"')
             PR_DRAFT=$(echo "$PR_DATA" | jq -r '.draft // "false"')
+            PR_NODE_ID=$(echo "$PR_DATA" | jq -r '.node_id // ""')
 
-            echo "PR #$PR_NUMBER | Author: $PR_AUTHOR | Draft: $PR_DRAFT"
+            echo "PR #$PR_NUMBER | Author: $PR_AUTHOR | Draft: $PR_DRAFT | NodeID: $PR_NODE_ID"
 
             ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot]"
 
             if echo "$ALLOWED_AUTHORS" | grep -qF "$PR_AUTHOR"; then
-              if [ "$PR_DRAFT" = "true" ]; then
-                echo "Converting draft PR #$PR_NUMBER to ready-for-review..."
-                HTTP_STATUS=$(curl -X PATCH -s -o /dev/null -w "%{http_code}" \
-                  -H "Authorization: token $GITHUB_TOKEN" \
+              if [ "$PR_DRAFT" = "true" ] && [ -n "$PR_NODE_ID" ]; then
+                echo "Converting draft PR #$PR_NUMBER to ready-for-review via GraphQL..."
+                GRAPHQL_RESPONSE=$(curl -s -X POST \
+                  -H "Authorization: bearer $GITHUB_TOKEN" \
                   -H "Content-Type: application/json" \
-                  -d '{"draft": false}' \
-                  "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER")
-                echo "HTTP status: $HTTP_STATUS"
+                  -d "{\"query\": \"mutation { convertPullRequestToDraft(input: {pullRequestId: \\\"$PR_NODE_ID\\\"}) { pullRequest { isDraft } } }\"}" \
+                  "https://api.github.com/graphql")
+                echo "convertToDraft response: $GRAPHQL_RESPONSE"
+
+                # Wait a moment then convert back to ready
+                sleep 2
+
+                READY_RESPONSE=$(curl -s -X POST \
+                  -H "Authorization: bearer $GITHUB_TOKEN" \
+                  -H "Content-Type: application/json" \
+                  -d "{\"query\": \"mutation { markPullRequestReadyForReview(input: {pullRequestId: \\\"$PR_NODE_ID\\\"}) { pullRequest { isDraft } } }\"}" \
+                  "https://api.github.com/graphql")
+                echo "markReadyForReview response: $READY_RESPONSE"
               else
                 echo "PR is already ready-for-review. Mergify will handle merge."
               fi
