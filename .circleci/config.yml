@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Convert draft to ready if author is allowed
           command: |
-            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$')
+            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$' || true)
             if [ -z "$PR_NUMBER" ]; then
               echo "No PR number, skipping."
               exit 0
