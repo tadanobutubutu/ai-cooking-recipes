@@ -8,6 +8,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 ## Recipe List
 
+- [Beef Tacos](recipes/beef-tacos.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
