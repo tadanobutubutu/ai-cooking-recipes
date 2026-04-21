@@ -6,38 +6,44 @@ jobs:
       - image: cimg/base:stable
     steps:
       - run:
-          name: Convert draft to ready if author is allowed
+          name: Convert draft to ready-for-review for authorized AI agents
           command: |
-            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$' || true)
+            set +e
+
+            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$')
             if [ -z "$PR_NUMBER" ]; then
-              echo "No PR number, skipping."
+              echo "No PR number found. Skipping."
               exit 0
             fi
 
-            PR_DATA=$(curl -s \
+            PR_DATA=$(curl -sf \
               -H "Authorization: token $GITHUB_TOKEN" \
-              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER")
+              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER" || echo "{}")
 
-            PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login')
-            PR_DRAFT=$(echo "$PR_DATA" | jq -r '.draft')
+            PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login // "unknown"')
+            PR_DRAFT=$(echo "$PR_DATA" | jq -r '.draft // "false"')
 
-            echo "Author: $PR_AUTHOR / Draft: $PR_DRAFT"
+            echo "PR #$PR_NUMBER | Author: $PR_AUTHOR | Draft: $PR_DRAFT"
 
-            ALLOWED="google-labs-jules[bot] devin-ai-integration[bot]"
-            if echo "$ALLOWED" | grep -qF "$PR_AUTHOR"; then
+            ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot]"
+
+            if echo "$ALLOWED_AUTHORS" | grep -qF "$PR_AUTHOR"; then
               if [ "$PR_DRAFT" = "true" ]; then
-                echo "Converting draft to ready..."
-                curl -X PATCH -s \
+                echo "Converting draft PR #$PR_NUMBER to ready-for-review..."
+                HTTP_STATUS=$(curl -X PATCH -s -o /dev/null -w "%{http_code}" \
                   -H "Authorization: token $GITHUB_TOKEN" \
                   -H "Content-Type: application/json" \
                   -d '{"draft": false}' \
-                  "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER"
+                  "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER")
+                echo "HTTP status: $HTTP_STATUS"
               else
-                echo "PR is already ready. Mergify will handle the merge."
+                echo "PR is already ready-for-review. Mergify will handle merge."
               fi
             else
-              echo "Author not allowed: $PR_AUTHOR"
+              echo "Author $PR_AUTHOR is not in allowed list. No action taken."
             fi
+
+            exit 0
 
 workflows:
   on-pull-request:

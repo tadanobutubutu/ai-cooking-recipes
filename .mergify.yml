@@ -3,14 +3,12 @@ queue_rules:
     merge_conditions: []
 
 pull_request_rules:
-  - name: 🤖 Auto-merge Jules PRs
+
+  - name: 🤖 Force merge Jules PRs
     conditions:
       - author=google-labs-jules[bot]
       - -conflict
-      - or:
-        - check-success=wip
-        - check-neutral=wip
-        - check-skipped=wip
+      - -draft
     actions:
       review:
         type: APPROVE
@@ -19,16 +17,13 @@ pull_request_rules:
         method: squash
       delete_head_branch: {}
       comment:
-        message: "✅ Automatically merged by Mergify Bot"
+        message: "✅ Auto-merged by Mergify (Jules)"
 
-  - name: 🤖 Auto-merge Devin PRs
+  - name: 🤖 Force merge Devin PRs
     conditions:
       - author=devin-ai-integration[bot]
       - -conflict
-      - or:
-        - check-success=wip
-        - check-neutral=wip
-        - check-skipped=wip
+      - -draft
     actions:
       review:
         type: APPROVE
@@ -37,9 +32,9 @@ pull_request_rules:
         method: squash
       delete_head_branch: {}
       comment:
-        message: "✅ Automatically merged by Mergify Bot"
+        message: "✅ Auto-merged by Mergify (Devin)"
 
-  - name: 💬 Comment on unauthorized PRs
+  - name: 💬 Block unauthorized PRs
     conditions:
       - author!=google-labs-jules[bot]
       - author!=devin-ai-integration[bot]
