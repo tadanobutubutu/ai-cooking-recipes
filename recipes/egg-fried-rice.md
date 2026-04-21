@@ -1,6 +1,6 @@
 # Egg Fried Rice
 
-**⚠️ Allergens**: eggs, soy
+**⚠️ Allergens**: eggs / soy / sesame
 **🕐 Cooking Time**: 15 minutes
 **👥 Servings**: 2
 
