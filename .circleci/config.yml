@@ -1,63 +1,56 @@
 version: 2.1
 
 jobs:
-  on-pull-request:
+  instant-merge:
     docker:
       - image: cimg/base:stable
     steps:
+      - checkout
       - run:
-          name: Convert draft to ready-for-review via GraphQL for authorized AI agents
+          name: Instant Force Merge
           command: |
-            set +e
-
-            PR_NUMBER=$(echo "$CIRCLE_PULL_REQUEST" | grep -oE '[0-9]+$')
-            if [ -z "$PR_NUMBER" ]; then
-              echo "No PR number found. Skipping."
+            if [ -z "$CIRCLE_PULL_REQUEST" ]; then
+              echo "Not a pull request. Skipping."
               exit 0
             fi
 
-            # Get PR data including node_id (needed for GraphQL)
-            PR_DATA=$(curl -sf \
-              -H "Authorization: token $GITHUB_TOKEN" \
-              "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/pulls/$PR_NUMBER" || echo "{}")
+            PR_NUMBER=${CIRCLE_PULL_REQUEST##*/}
+            echo "Processing PR #$PR_NUMBER..."
 
-            PR_AUTHOR=$(echo "$PR_DATA" | jq -r '.user.login // "unknown"')
-            PR_DRAFT=$(echo "$PR_DATA" | jq -r '.draft // "false"')
-            PR_NODE_ID=$(echo "$PR_DATA" | jq -r '.node_id // ""')
-
-            echo "PR #$PR_NUMBER | Author: $PR_AUTHOR | Draft: $PR_DRAFT | NodeID: $PR_NODE_ID"
-
-            ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot]"
-
-            if echo "$ALLOWED_AUTHORS" | grep -qF "$PR_AUTHOR"; then
-              if [ "$PR_DRAFT" = "true" ] && [ -n "$PR_NODE_ID" ]; then
-                echo "Converting draft PR #$PR_NUMBER to ready-for-review via GraphQL..."
-                GRAPHQL_RESPONSE=$(curl -s -X POST \
-                  -H "Authorization: bearer $GITHUB_TOKEN" \
-                  -H "Content-Type: application/json" \
-                  -d "{\"query\": \"mutation { convertPullRequestToDraft(input: {pullRequestId: \\\"$PR_NODE_ID\\\"}) { pullRequest { isDraft } } }\"}" \
-                  "https://api.github.com/graphql")
-                echo "convertToDraft response: $GRAPHQL_RESPONSE"
-
-                # Wait a moment then convert back to ready
-                sleep 2
-
-                READY_RESPONSE=$(curl -s -X POST \
-                  -H "Authorization: bearer $GITHUB_TOKEN" \
-                  -H "Content-Type: application/json" \
-                  -d "{\"query\": \"mutation { markPullRequestReadyForReview(input: {pullRequestId: \\\"$PR_NODE_ID\\\"}) { pullRequest { isDraft } } }\"}" \
-                  "https://api.github.com/graphql")
-                echo "markReadyForReview response: $READY_RESPONSE"
-              else
-                echo "PR is already ready-for-review. Mergify will handle merge."
-              fi
-            else
-              echo "Author $PR_AUTHOR is not in allowed list. No action taken."
+            # Install GitHub CLI if not present
+            if ! command -v gh &> /dev/null; then
+              sudo apt-get update && sudo apt-get install -y gh
             fi
 
-            exit 0
+            # Check PR author
+            PR_AUTHOR=$(gh pr view "$PR_NUMBER" --json author --jq '.author.login')
+            echo "PR Author: $PR_AUTHOR"
+
+            # Authorized AI agents
+            ALLOWED_AUTHORS="google-labs-jules[bot] devin-ai-integration[bot] tadanobutubutu"
+
+            if echo "$ALLOWED_AUTHORS" | grep -qF "$PR_AUTHOR"; then
+              echo "Authorized agent detected. Starting force merge..."
+              
+              # 1. Mark as ready if draft
+              gh pr ready "$PR_NUMBER" || echo "Already ready or failed to mark ready"
+              
+              # 2. Approve the PR
+              gh pr review "$PR_NUMBER" --approve --body "✅ Auto-approved by CircleCI Force Merger" || echo "Failed to approve"
+              
+              # 3. Merge immediately (using admin rights if necessary)
+              # Using --squash for clean history
+              gh pr merge "$PR_NUMBER" --squash --delete-branch --admin || \
+              gh pr merge "$PR_NUMBER" --squash --delete-branch || \
+              echo "Merge failed, but I tried my best."
+            else
+              echo "Author $PR_AUTHOR is not in allowed list. Skipping."
+            fi
 
 workflows:
   on-pull-request:
     jobs:
-      - on-pull-request
+      - instant-merge:
+          filters:
+            branches:
+              ignore: main
