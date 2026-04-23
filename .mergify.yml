@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - author~=(google-labs-jules|devin-ai-integration|tadanobutubutu)
       - -conflict
+      # チェック項目を待たない（条件から外す）
     actions:
       un-draft: {}
       review:
