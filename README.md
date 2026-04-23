@@ -11,6 +11,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
+- [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 
