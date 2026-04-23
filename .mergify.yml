@@ -1,26 +1,12 @@
-queue_rules:
-  - name: default
-    merge_conditions: []
-
 pull_request_rules:
-  - name: 🚀 Instant Force Merge for AI Agents
+  - name: 🚀 ULTIMATE FORCE MERGE
     conditions:
       - author~=(google-labs-jules\[bot\]|devin-ai-integration\[bot\]|tadanobutubutu)
       - -conflict
     actions:
       review:
         type: APPROVE
-        message: "✅ Verified by AI-Automator"
+        message: "✅ AUTO-APPROVED"
       merge:
         method: squash
       delete_head_branch: {}
-      comment:
-        message: "🚀 Merging instantly via Mergify. No GitHub Actions needed."
-
-  - name: 🔓 Un-draft and Merge
-    conditions:
-      - author~=(google-labs-jules\[bot\]|devin-ai-integration\[bot\]|tadanobutubutu)
-      - draft
-    actions:
-      comment:
-        message: "⚠️ This is a draft PR. I will merge it as soon as it becomes ready (or my CircleCI sibling kicks in)."
