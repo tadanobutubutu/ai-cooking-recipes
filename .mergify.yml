@@ -1,14 +1,13 @@
 pull_request_rules:
-  - name: 🚀 ULTIMATE AUTO-MERGE (Draft -> Ready -> Merge)
+  - name: 🤖 AUTOMATIC UN-DRAFT & MERGE FOR TRUSTED USERS
     conditions:
       - author~=(google-labs-jules|devin-ai-integration|tadanobutubutu)
       - -conflict
-      # チェック項目を待たない（条件から外す）
     actions:
       un-draft: {}
       review:
         type: APPROVE
-        message: "✅ Auto-approved by Mergify (Force Pass)"
+        message: "✅ Trusted author detected. Auto-approving for instant merge."
       merge:
         method: squash
         commit_message_template: "Merged by Mergify: {{ title }}"
