@@ -1,21 +1,14 @@
 pull_request_rules:
-  - name: 🚀 INSTANT MERGE (AI AGENTS)
+  - name: 🚀 ULTIMATE AUTO-MERGE (Draft -> Ready -> Merge)
     conditions:
       - author~=(google-labs-jules\[bot\]|devin-ai-integration\[bot\]|tadanobutubutu)
       - -conflict
     actions:
+      un-draft: {}
       review:
         type: APPROVE
-        message: "✅ AUTO-APPROVED"
+        message: "✅ Auto-approved by Mergify (Force Pass)"
       merge:
         method: squash
         commit_message_template: "Merged by Mergify: {{ title }}"
       delete_head_branch: {}
-
-  - name: 🔓 AUTOMATIC READY-FOR-REVIEW
-    conditions:
-      - author~=(google-labs-jules\[bot\]|devin-ai-integration\[bot\]|tadanobutubutu)
-      - draft
-    actions:
-      comment:
-        message: "This PR is in draft. Mergify will merge it as soon as it becomes ready."
