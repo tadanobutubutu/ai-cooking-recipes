@@ -4,26 +4,13 @@ manifest:
   version: 1.0
 
 automations:
-  # AIエージェントからのPRを自動的にReady to reviewにする
-  ready_for_review_ai:
+  # AIエージェントおよびユーザーからのPRを自動的に処理
+  approve_and_label_ai:
     if:
-      - {{ pr.author | includes(term=['devin-ai-integration[bot]', 'google-labs-jules[bot]', 'tadanobutubutu']) }}
-      - {{ pr.is_draft }}
+      - {{ pr.author == 'devin-ai-integration[bot]' or pr.author == 'google-labs-jules[bot]' or pr.author == 'tadanobutubutu' }}
     run:
-      - action: set-required-reviewers@v1
-        args:
-          reviewers: []
+      # ドラフト解除（gitStream Appが権限を持っていれば実行される）
       - action: approve@v1
-      - action: add-label@v1
-        args:
-          labels: ['automerge']
-
-  # ドラフトが解除されたらマージラベルを付ける
-  automerge_label_on_ready:
-    if:
-      - {{ pr.author | includes(term=['devin-ai-integration[bot]', 'google-labs-jules[bot]', 'tadanobutubutu']) }}
-      - {{ not pr.is_draft }}
-    run:
       - action: add-label@v1
         args:
           labels: ['automerge']
