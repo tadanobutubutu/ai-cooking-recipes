@@ -1,29 +1,50 @@
 version: 2.1
 
 jobs:
-  build:
+  build_and_automerge:
     docker:
       - image: cimg/base:stable
     steps:
       - checkout
       - run:
-          name: "Add automerge label if authorized"
+          name: "Install GitHub CLI"
           command: |
-            # PR作成者を確認し、許可されたユーザーならラベルを付与
-            AUTHOR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/pulls/${CIRCLE_PR_NUMBER} | jq -r .user.login)
-            if [ "$AUTHOR" = "tadanobutubutu" ] || [ "$AUTHOR" = "devin-ai-integration[bot]" ] || [ "$AUTHOR" = "google-labs-jules[bot]" ]; then
-              echo "Author is authorized. Adding automerge label..."
-              curl -X POST -H "Authorization: token $GITHUB_TOKEN" \
-                -H "Accept: application/vnd.github.v3+json" \
-                https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/issues/${CIRCLE_PR_NUMBER}/labels \
-                -d '{"labels":["automerge"]}'
-            fi
+            curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+            sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+            echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+            sudo apt update
+            sudo apt install gh jq -y
       - run:
-          name: "Dummy Build"
-          command: echo "Build successful"
+          name: "Fully Automated Merge (Bypass everything)"
+          command: |
+            if [ -z "$CIRCLE_PR_NUMBER" ]; then
+              echo "Not a Pull Request, skipping."
+              exit 0
+            fi
+            
+            # PR作者を確認
+            AUTHOR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/pulls/${CIRCLE_PR_NUMBER} | jq -r .user.login)
+            echo "PR Author: $AUTHOR"
+            
+            if [ "$AUTHOR" = "tadanobutubutu" ] || [ "$AUTHOR" = "devin-ai-integration[bot]" ] || [ "$AUTHOR" = "google-labs-jules[bot]" ]; then
+              echo "Authorized author detected. Executing self-merge..."
+              
+              # ドラフト解除
+              gh pr ready $CIRCLE_PR_NUMBER || true
+              
+              # ラベル付与
+              gh pr edit $CIRCLE_PR_NUMBER --add-label "automerge" || true
+              
+              # マージ実行 (Kodiakを待たずにCircleCIが直接実行)
+              gh pr merge $CIRCLE_PR_NUMBER --squash --delete-branch || true
+              
+              echo "Merge command executed."
+            else
+              echo "Unauthorized author. Skipping automerge."
+            fi
 
 workflows:
   version: 2
-  build_and_label:
+  main_workflow:
     jobs:
-      - build
+      - build_and_automerge
