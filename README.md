@@ -12,6 +12,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
+- [French Toast](recipes/french-toast.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
