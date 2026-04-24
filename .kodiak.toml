@@ -2,14 +2,15 @@ version = 1
 
 [merge]
 method = "squash"
-# 全てのステータスチェック（WIPなど）がパスするのを待たない
-require_all_status_checks = false
-# 必須とするチェックのみを指定（CircleCIのダミーが通ればOKにする）
-required_status_checks = ["ci/circleci: build"]
-# ドラフト状態でもマージ候補に入れる（Mergifyが解除する前にKodiakが動く可能性も考慮）
+# ドラフトPRもマージ対象に含める
 do_not_merge_draft_pull_requests = false
-# 競合が発生した際に自動でリベース/マージして解消を試みる
+# 指定したステータスチェック（CircleCI）のみを必須にする
+required_status_checks = ["ci/circleci: build"]
+# その他のチェック（WIPなど）が進行中でもマージを許可
+require_all_status_checks = false
+# コンフリクト時に自動で更新
 auto_update = true
 
 [approve]
+# 特定のユーザー/BotのPRを自動承認
 auto_approve_usernames = ["tadanobutubutu", "devin-ai-integration[bot]", "google-labs-jules[bot]"]
