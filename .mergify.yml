@@ -1,19 +1,39 @@
 pull_request_rules:
-  - name: 🚀 AUTOMATED UN-DRAFT AND MERGE FOR BOTS
+  - name: 1️⃣ UN-DRAFT AI PRS IMMEDIATELY
     conditions:
       - or:
         - author=google-labs-jules[bot]
         - author=devin-ai-integration[bot]
         - author=tadanobutubutu
-      - -conflict
+      - draft
     actions:
-      # ドラフトを解除
       un-draft: {}
-      # 自動承認（Kodiakと重複しても良い、確実性を高める）
+
+  - name: 2️⃣ AUTO-APPROVE AND LABEL
+    conditions:
+      - or:
+        - author=google-labs-jules[bot]
+        - author=devin-ai-integration[bot]
+        - author=tadanobutubutu
+      - -draft
+    actions:
       review:
         type: APPROVE
         message: "✅ Mergify Auto-approval"
-      # マージ
+      label:
+        add: ["automerge"]
+
+  - name: 3️⃣ SQUASH MERGE (BYPASS WIP)
+    conditions:
+      - or:
+        - author=google-labs-jules[bot]
+        - author=devin-ai-integration[bot]
+        - author=tadanobutubutu
+      - -draft
+      # CircleCIが成功していることだけを必須条件にする
+      - check-success=ci/circleci: build
+      - -conflict
+    actions:
       merge:
         method: squash
       delete_head_branch: {}
