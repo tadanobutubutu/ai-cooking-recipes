@@ -3,6 +3,7 @@ pull_request_rules:
     conditions:
       - author~=(google-labs-jules\[bot\]|devin-ai-integration\[bot\]|tadanobutubutu)
       - -conflict
+      - label=automerge
     actions:
       un-draft: {}
       review:
