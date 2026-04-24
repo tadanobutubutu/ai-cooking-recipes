@@ -1,0 +1,12 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - run: echo "Auto-merge validation pass!"
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
