@@ -1,1 +1,8 @@
 version = 1
+
+[merge]
+do_not_merge_draft_pull_requests = false
+method = "squash"
+
+[approve]
+auto_approve_usernames = ["tadanobutubutu", "devin-ai-integration[bot]", "google-labs-jules[bot]"]
