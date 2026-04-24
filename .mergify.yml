@@ -1,17 +1,19 @@
 pull_request_rules:
-  - name: 🚀 AUTOMATED RECIPE MERGE
+  - name: 🚀 AUTOMATED UN-DRAFT AND MERGE FOR BOTS
     conditions:
       - or:
         - author=google-labs-jules[bot]
         - author=devin-ai-integration[bot]
         - author=tadanobutubutu
-      - label=automerge
       - -conflict
     actions:
+      # ドラフトを解除
       un-draft: {}
+      # 自動承認（Kodiakと重複しても良い、確実性を高める）
       review:
         type: APPROVE
         message: "✅ Mergify Auto-approval"
+      # マージ
       merge:
         method: squash
       delete_head_branch: {}
