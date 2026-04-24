@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Install GitHub CLI"
+          name: "Install GitHub CLI & jq"
           command: |
             curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
             sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
@@ -15,32 +15,51 @@ jobs:
             sudo apt update
             sudo apt install gh jq -y
       - run:
-          name: "Fully Automated Merge (Bypass everything)"
+          name: "Fully Automated Merge (Self-Healing)"
           command: |
-            if [ -z "$CIRCLE_PR_NUMBER" ]; then
-              echo "Not a Pull Request, skipping."
+            # GITHUB_TOKENの存在確認
+            if [ -z "$GITHUB_TOKEN" ]; then
+              echo "Error: GITHUB_TOKEN is not set in CircleCI environment variables."
+              exit 1
+            fi
+
+            # PR番号の特定
+            PR_NUMBER=$CIRCLE_PR_NUMBER
+            if [ -z "$PR_NUMBER" ]; then
+              echo "CIRCLE_PR_NUMBER is empty. Attempting to find PR for branch: $CIRCLE_BRANCH"
+              # 少し待機してGitHub側のPR作成を待つ
+              sleep 5
+              PR_NUMBER=$(gh pr list --head "$CIRCLE_BRANCH" --json number -q '.[0].number')
+            fi
+
+            if [ -z "$PR_NUMBER" ]; then
+              echo "No active Pull Request found for this branch. Skipping."
               exit 0
             fi
-            
+
+            echo "Target PR Number: $PR_NUMBER"
+
             # PR作者を確認
-            AUTHOR=$(curl -s -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/pulls/${CIRCLE_PR_NUMBER} | jq -r .user.login)
+            AUTHOR=$(gh pr view $PR_NUMBER --json author -q '.author.login')
             echo "PR Author: $AUTHOR"
             
-            if [ "$AUTHOR" = "tadanobutubutu" ] || [ "$AUTHOR" = "devin-ai-integration[bot]" ] || [ "$AUTHOR" = "google-labs-jules[bot]" ]; then
+            # 許可された作者リスト
+            if [[ "$AUTHOR" =~ ^(tadanobutubutu|devin-ai-integration\[bot\]|google-labs-jules\[bot\])$ ]]; then
               echo "Authorized author detected. Executing self-merge..."
               
               # ドラフト解除
-              gh pr ready $CIRCLE_PR_NUMBER || true
+              gh pr ready $PR_NUMBER || true
               
-              # ラベル付与
-              gh pr edit $CIRCLE_PR_NUMBER --add-label "automerge" || true
+              # ラベル付与 (Kodiak/Mergify用)
+              gh pr edit $PR_NUMBER --add-label "automerge" || true
               
-              # マージ実行 (Kodiakを待たずにCircleCIが直接実行)
-              gh pr merge $CIRCLE_PR_NUMBER --squash --delete-branch || true
+              # 直接マージ実行 (スクワッシュ)
+              # --autoフラグを使うことで、ステータスチェックの完了を待ってマージされるように予約できる
+              gh pr merge $PR_NUMBER --squash --delete-branch --auto
               
-              echo "Merge command executed."
+              echo "Merge command issued successfully."
             else
-              echo "Unauthorized author. Skipping automerge."
+              echo "Unauthorized author: $AUTHOR. Skipping automerge."
             fi
 
 workflows:
