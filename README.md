@@ -17,6 +17,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
+- [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 
 ## License
