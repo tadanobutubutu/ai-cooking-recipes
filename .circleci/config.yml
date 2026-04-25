@@ -19,8 +19,8 @@ jobs:
           command: |
             # GITHUB_TOKENの存在確認
             if [ -z "$GITHUB_TOKEN" ]; then
-              echo "Error: GITHUB_TOKEN is not set in CircleCI environment variables."
-              exit 1
+              echo "Warning: GITHUB_TOKEN is not set in CircleCI environment variables. Skipping automerge."
+              exit 0
             fi
 
             # PR番号の特定
