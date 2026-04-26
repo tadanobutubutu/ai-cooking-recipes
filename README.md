@@ -9,6 +9,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 ## Recipe List
 
 - [Beef Tacos](recipes/beef-tacos.md)
+- [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
