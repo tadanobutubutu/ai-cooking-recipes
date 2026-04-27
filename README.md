@@ -8,6 +8,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 ## Recipe List
 
+- [Avocado Toast](recipes/avocado-toast.md)
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
