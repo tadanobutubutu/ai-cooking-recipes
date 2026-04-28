@@ -2,8 +2,8 @@ version = 1
 
 [merge]
 method = "squash"
-require_automerge_label = false
-do_not_merge_draft_pull_requests = false
+require_automerge_label = true
+automerge_label = "automerge"
 delete_branch_on_merge = true
 auto_update = true
 require_all_status_checks = false
