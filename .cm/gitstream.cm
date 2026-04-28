@@ -1,0 +1,18 @@
+# -*- mode: yaml -*-
+
+manifest:
+  version: 1.0
+
+automations:
+  handle_ai_prs:
+    if:
+      - {{ is_ai_author }}
+    run:
+      - action: change-pr-state@v1
+        args:
+          state: OPEN
+      - action: add-label@v1
+        args:
+          label: 'automerge'
+
+is_ai_author: {{ (pr.author | includes(['google-labs-jules[bot]', 'devin-ai-integration[bot]', 'tadanobutubutu'])) }}

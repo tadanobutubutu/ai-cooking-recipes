@@ -2,15 +2,10 @@ version = 1
 
 [merge]
 method = "squash"
-# ドラフトPRもマージ対象に含める
-do_not_merge_draft_pull_requests = false
-# 指定したステータスチェック（CircleCI）のみを必須にする
-required_status_checks = ["ci/circleci: build"]
-# その他のチェック（WIPなど）が進行中でもマージを許可
-require_all_status_checks = false
-# コンフリクト時に自動で更新
+require_automerge_label = true
+automerge_label = "automerge"
+delete_branch_on_merge = true
 auto_update = true
 
-[approve]
-# 特定のユーザー/BotのPRを自動承認
-auto_approve_usernames = ["tadanobutubutu", "devin-ai-integration[bot]", "google-labs-jules[bot]"]
+[merge.test]
+required_status_checks = ["ci/circleci: build"]
