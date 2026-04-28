@@ -6,6 +6,9 @@ require_automerge_label = true
 automerge_label = "automerge"
 delete_branch_on_merge = true
 auto_update = true
+# すべてのチェックを待たず、required_status_checks に指定したものだけを必須にする
+require_all_status_checks = false
 
 [merge.test]
+# CircleCIの結果だけを必須とし、WIPアプリなどの他のチェックは無視する
 required_status_checks = ["ci/circleci: build"]
