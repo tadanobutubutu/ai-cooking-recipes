@@ -6,13 +6,11 @@ manifest:
 automations:
   handle_ai_prs:
     if:
-      - {{ is_ai_author }}
+      - {{ pr.author == 'tadanobutubutu' or pr.author == 'devin-ai-integration[bot]' or pr.author == 'google-labs-jules[bot]' }}
     run:
-      - action: change-pr-state@v1
-        args:
-          state: OPEN
       - action: add-label@v1
         args:
           label: 'automerge'
-
-is_ai_author: {{ (pr.author | includes(['google-labs-jules[bot]', 'devin-ai-integration[bot]', 'tadanobutubutu'])) }}
+      - action: change-pr-state@v1
+        args:
+          state: OPEN
