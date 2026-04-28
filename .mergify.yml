@@ -1,0 +1,24 @@
+pull_request_rules:
+  - name: "AI PR: Un-draft and Label for Automerge"
+    conditions:
+      - or:
+        - author=google-labs-jules[bot]
+        - author=devin-ai-integration[bot]
+        - author=tadanobutubutu
+      - draft
+    actions:
+      un-draft: {}
+      label:
+        add: ["automerge"]
+
+  - name: "AI PR: Label if already ready"
+    conditions:
+      - or:
+        - author=google-labs-jules[bot]
+        - author=devin-ai-integration[bot]
+        - author=tadanobutubutu
+      - -draft
+      - -label=automerge
+    actions:
+      label:
+        add: ["automerge"]
