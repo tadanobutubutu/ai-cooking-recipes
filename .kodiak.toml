@@ -2,11 +2,14 @@ version = 1
 
 [merge]
 method = "squash"
-require_automerge_label = true
-automerge_label = "automerge"
+require_automerge_label = false
+do_not_merge_draft_pull_requests = false
 delete_branch_on_merge = true
 auto_update = true
 require_all_status_checks = false
 
 [merge.test]
 required_status_checks = ["main_workflow"]
+
+[approve]
+auto_approve_usernames = ["tadanobutubutu", "devin-ai-integration[bot]", "google-labs-jules[bot]"]
