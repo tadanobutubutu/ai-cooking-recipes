@@ -6,7 +6,7 @@ manifest:
 automations:
   handle_ai_prs:
     if:
-      - {{ pr.author == 'tadanobutubutu' or pr.author == 'devin-ai-integration[bot]' or pr.author == 'google-labs-jules[bot]' }}
+      - true
     run:
       - action: add-label@v1
         args:
