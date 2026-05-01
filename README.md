@@ -17,6 +17,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [French Toast](recipes/french-toast.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
+- [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
