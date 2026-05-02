@@ -19,6 +19,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
+- [Pesto Pasta](recipes/pesto-pasta.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
