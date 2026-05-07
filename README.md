@@ -13,6 +13,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
+- [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
