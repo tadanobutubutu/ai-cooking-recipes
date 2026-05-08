@@ -16,6 +16,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
+- [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [French Toast](recipes/french-toast.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
