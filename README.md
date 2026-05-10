@@ -10,6 +10,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 - [Avocado Toast](recipes/avocado-toast.md)
 - [Baked Potato](recipes/baked-potato.md)
+- [Beef and Broccoli](recipes/beef-and-broccoli.md)
 - [Beef Chili](recipes/beef-chili.md)
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Caprese Salad](recipes/caprese-salad.md)
