@@ -25,6 +25,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
+- [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
 - [Shakshuka](recipes/shakshuka.md)
