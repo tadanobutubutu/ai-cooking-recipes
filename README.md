@@ -24,6 +24,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
+- [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
