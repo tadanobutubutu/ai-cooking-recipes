@@ -26,6 +26,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Guacamole](recipes/guacamole.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
+- [Lemon Herb Chicken](recipes/lemon-herb-chicken.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
