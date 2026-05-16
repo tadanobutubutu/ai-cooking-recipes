@@ -31,6 +31,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
+- [Roasted Carrots](recipes/roasted-carrots.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
