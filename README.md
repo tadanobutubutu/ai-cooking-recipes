@@ -35,6 +35,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Roasted Carrots](recipes/roasted-carrots.md)
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
 - [Shakshuka](recipes/shakshuka.md)
+- [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
