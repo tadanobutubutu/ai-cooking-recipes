@@ -31,6 +31,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
+- [Omelette](recipes/omelette.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
