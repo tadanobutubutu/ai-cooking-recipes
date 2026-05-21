@@ -32,6 +32,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Omelette](recipes/omelette.md)
+- [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
