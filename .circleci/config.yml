@@ -25,14 +25,14 @@ jobs:
 
             # PR番号の特定
             PR_NUMBER=$CIRCLE_PR_NUMBER
-            if [ -z "$PR_NUMBER" ]; then
+            if [ -z "$PR_NUMBER" ] || [ "$PR_NUMBER" = "null" ]; then
               echo "CIRCLE_PR_NUMBER is empty. Attempting to find PR for branch: $CIRCLE_BRANCH"
               # 少し待機してGitHub側のPR作成を待つ
               sleep 5
               PR_NUMBER=$(gh pr list --head "$CIRCLE_BRANCH" --json number -q '.[0].number')
             fi
 
-            if [ -z "$PR_NUMBER" ]; then
+            if [ -z "$PR_NUMBER" ] || [ "$PR_NUMBER" = "null" ]; then
               echo "No active Pull Request found for this branch. Skipping."
               exit 0
             fi
