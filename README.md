@@ -17,6 +17,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken Curry](recipes/chicken-curry.md)
+- [Chicken Noodle Soup](recipes/chicken-noodle-soup.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
