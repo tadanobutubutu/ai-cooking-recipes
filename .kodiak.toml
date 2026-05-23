@@ -2,13 +2,13 @@ version = 1
 
 [merge]
 method = "squash"
-require_automerge_label = false
-do_not_merge_draft_pull_requests = false
+require_automerge_label = true
+do_not_merge_draft_pull_requests = true
 delete_branch_on_merge = true
 auto_update = true
-require_all_status_checks = false
-# 承認を不要にする
-require_approvals = false
+require_all_status_checks = true
+# 承認を必須にする
+require_approvals = true
 
 [merge.test]
 required_status_checks = ["main_workflow"]
