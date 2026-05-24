@@ -24,6 +24,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [French Toast](recipes/french-toast.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
+- [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Guacamole](recipes/guacamole.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
