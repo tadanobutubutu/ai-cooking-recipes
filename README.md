@@ -46,6 +46,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
+- [Vegetable Soup](recipes/vegetable-soup.md)
 - [Vegetable Stir Fry](recipes/vegetable-stir-fry.md)
 
 ## License
