@@ -14,6 +14,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Banana Pancakes](recipes/banana-pancakes.md)
 - [Beef and Broccoli](recipes/beef-and-broccoli.md)
 - [Beef Chili](recipes/beef-chili.md)
+- [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
