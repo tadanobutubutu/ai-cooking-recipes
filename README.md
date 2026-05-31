@@ -26,6 +26,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [French Toast](recipes/french-toast.md)
+- [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
