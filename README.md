@@ -16,6 +16,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Chili](recipes/beef-chili.md)
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
+- [BLT Sandwich](recipes/blt-sandwich.md)
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken Curry](recipes/chicken-curry.md)
