@@ -18,22 +18,21 @@ jobs:
   force-merge:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Token (Optional)
+      - name: Generate Token
         id: generate_token
-        continue-on-error: true
-        uses: actions/create-github-app-token@v3
+        uses: actions/create-github-app-token@v1
         with:
-          app_id: ${{ secrets.AUTO_MERGE_APP_ID }}
-          private_key: ${{ secrets.AUTO_MERGE_APP_PRIVATE_KEY }}
+          app-id: ${{ secrets.AUTO_MERGE_APP_ID }}
+          private-key: ${{ secrets.AUTO_MERGE_APP_PRIVATE_KEY }}
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
-          token: ${{ steps.generate_token.outputs.token || secrets.GITHUB_TOKEN }}
+          token: ${{ steps.generate_token.outputs.token }}
 
       - name: High-Speed Penetration Merge
         env:
-          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: |
           # 全てのオープンなPRを取得
           pull_requests=$(gh pr list --json number,isDraft,id,author,mergeable --limit 100)
@@ -68,9 +67,9 @@ jobs:
               sleep 2
             fi
 
-            # 管理者権限で強制マージ (可能であれば)
+            # 管理者権限で強制マージ (ブランチ自動削除 --delete-branch を明示)
             if gh pr merge "$PR_NO" --admin --squash --delete-branch; then
-              echo "✅ Successfully merged PR #$PR_NO"
+              echo "✅ Successfully merged PR #$PR_NO and deleted branch."
             else
               echo "⚠️ Merge failed, trying final GraphQL bypass..."
               gh api graphql -f query='
