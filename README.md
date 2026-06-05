@@ -23,6 +23,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Fajitas](recipes/chicken-fajitas.md)
 - [Chicken Noodle Soup](recipes/chicken-noodle-soup.md)
+- [Chicken Parmesan](recipes/chicken-parmesan.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
