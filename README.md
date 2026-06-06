@@ -53,6 +53,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Shakshuka](recipes/shakshuka.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
+- [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 - [Vegetable Soup](recipes/vegetable-soup.md)
