@@ -13,6 +13,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Baked Sweet Potato](recipes/baked-sweet-potato.md)
 - [Banana Pancakes](recipes/banana-pancakes.md)
 - [Beef and Broccoli](recipes/beef-and-broccoli.md)
+- [Beef Burgers](recipes/beef-burgers.md)
 - [Beef Chili](recipes/beef-chili.md)
 - [Beef Stew](recipes/beef-stew.md)
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
