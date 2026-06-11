@@ -48,6 +48,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Omelette](recipes/omelette.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
+- [Pork Chops](recipes/pork-chops.md)
 - [Roasted Asparagus](recipes/roasted-asparagus.md)
 - [Roasted Broccoli](recipes/roasted-broccoli.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
