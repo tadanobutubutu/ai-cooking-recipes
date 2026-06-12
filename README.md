@@ -44,6 +44,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Lentil Soup](recipes/lentil-soup.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
+- [Meatball Sub](recipes/meatball-sub.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Omelette](recipes/omelette.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
