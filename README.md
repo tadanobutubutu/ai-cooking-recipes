@@ -10,6 +10,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 - [Avocado Toast](recipes/avocado-toast.md)
 - [Baked Potato](recipes/baked-potato.md)
+- [Baked Salmon](recipes/baked-salmon.md)
 - [Baked Sweet Potato](recipes/baked-sweet-potato.md)
 - [Banana Pancakes](recipes/banana-pancakes.md)
 - [Beef and Broccoli](recipes/beef-and-broccoli.md)
