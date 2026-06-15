@@ -29,6 +29,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Parmesan](recipes/chicken-parmesan.md)
 - [Chicken Piccata](recipes/chicken-piccata.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
+- [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Cucumber Salad](recipes/cucumber-salad.md)
