@@ -59,6 +59,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
 - [Scrambled Eggs](recipes/scrambled-eggs.md)
 - [Shakshuka](recipes/shakshuka.md)
+- [Shrimp Fried Rice](recipes/shrimp-fried-rice.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
