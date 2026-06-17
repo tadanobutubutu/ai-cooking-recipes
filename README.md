@@ -46,6 +46,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Lemon Herb Roasted Chicken](recipes/lemon-herb-roasted-chicken.md)
 - [Lentil Soup](recipes/lentil-soup.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
+- [Macaroni Salad](recipes/macaroni-salad.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
