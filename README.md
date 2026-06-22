@@ -39,6 +39,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [French Toast](recipes/french-toast.md)
 - [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
+- [Garlic Mashed Potatoes](recipes/garlic-mashed-potatoes.md)
 - [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Guacamole](recipes/guacamole.md)
