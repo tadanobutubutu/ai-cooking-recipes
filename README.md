@@ -69,6 +69,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
+- [Tofu Stir Fry](recipes/tofu-stir-fry.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 - [Tomato Salad](recipes/tomato-salad.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
