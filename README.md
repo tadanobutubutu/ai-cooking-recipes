@@ -22,6 +22,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [BLT Sandwich](recipes/blt-sandwich.md)
 - [Caesar Salad](recipes/caesar-salad.md)
 - [Caprese Salad](recipes/caprese-salad.md)
+- [Cheese Quesadilla](recipes/cheese-quesadilla.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Fajitas](recipes/chicken-fajitas.md)
