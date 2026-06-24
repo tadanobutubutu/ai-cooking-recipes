@@ -8,6 +8,12 @@
 
 ## 🔌 API Changes
 <!-- TZYLO:API_START -->
+
+### Recipe Collection
+
+- Added new cheese quesadilla recipe file: recipes/cheese-quesadilla.md
+- Updated README.md to include cheese quesadilla in the recipe list
+
 <!-- TZYLO:API_END -->
 
 ---
@@ -55,7 +61,10 @@
 
 - Added new recipe file for Quinoa Salad at 'recipes/quinoa-salad.md'
 - README.md updated to include Quinoa Salad in the recipe list
-- Recipe accommodates 2 servings with a 20-minute cooking time
+- Recipe accommodates 2 servings
 - No allergens are present in the new recipe
+- Set cooking time to 10 minutes
+- Included allergen warnings for dairy and gluten
+- Provided safety notes for handling hot cheese
 
 <!-- TZYLO:GEN_END -->
