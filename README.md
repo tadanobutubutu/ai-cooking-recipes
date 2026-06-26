@@ -55,6 +55,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
+- [Mushroom Soup](recipes/mushroom-soup.md)
 - [Omelette](recipes/omelette.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
