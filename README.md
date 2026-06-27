@@ -54,6 +54,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Macaroni Salad](recipes/macaroni-salad.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
+- [Mushroom Omelette](recipes/mushroom-omelette.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Mushroom Soup](recipes/mushroom-soup.md)
 - [Omelette](recipes/omelette.md)
