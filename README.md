@@ -39,6 +39,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
 - [French Toast](recipes/french-toast.md)
+- [Fried Eggs](recipes/fried-eggs.md)
 - [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Garlic Butter Steak Bites](recipes/garlic-butter-steak-bites.md)
