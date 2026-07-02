@@ -65,6 +65,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
 - [Pork Chops](recipes/pork-chops.md)
+- [Potato Salad](recipes/potato-salad.md)
 - [Quinoa Salad](recipes/quinoa-salad.md)
 - [Roasted Asparagus](recipes/roasted-asparagus.md)
 - [Roasted Broccoli](recipes/roasted-broccoli.md)
