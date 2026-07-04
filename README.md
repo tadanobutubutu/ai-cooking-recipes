@@ -72,6 +72,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Roasted Broccoli](recipes/roasted-broccoli.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
+- [Roasted Zucchini](recipes/roasted-zucchini.md)
 - [Scrambled Eggs](recipes/scrambled-eggs.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Shrimp Fried Rice](recipes/shrimp-fried-rice.md)
