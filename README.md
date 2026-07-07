@@ -63,6 +63,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mushroom Omelette](recipes/mushroom-omelette.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Mushroom Soup](recipes/mushroom-soup.md)
+- [Oatmeal](recipes/oatmeal.md)
 - [Omelette](recipes/omelette.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
