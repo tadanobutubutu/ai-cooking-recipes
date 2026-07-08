@@ -28,6 +28,10 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }}
+        if: github.event_name == 'pull_request'
+
       - name: Exchange GitHub OIDC token for JAIPilot runtime token
         id: jaipilot-auth
         shell: bash
