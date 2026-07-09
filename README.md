@@ -62,6 +62,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Meatball Sub](recipes/meatball-sub.md)
 - [Miso Soup](recipes/miso-soup.md)
 - [Mushroom Omelette](recipes/mushroom-omelette.md)
+- [Mushroom Pasta](recipes/mushroom-pasta.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Mushroom Soup](recipes/mushroom-soup.md)
 - [Oatmeal](recipes/oatmeal.md)
