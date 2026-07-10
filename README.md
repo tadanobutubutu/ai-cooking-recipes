@@ -17,6 +17,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Burgers](recipes/beef-burgers.md)
 - [Beef Burrito](recipes/beef-burrito.md)
 - [Beef Chili](recipes/beef-chili.md)
+- [Beef Fried Rice](recipes/beef-fried-rice.md)
 - [Beef Stew](recipes/beef-stew.md)
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
