@@ -59,6 +59,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Lentil Soup](recipes/lentil-soup.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Macaroni Salad](recipes/macaroni-salad.md)
+- [Mango Smoothie](recipes/mango-smoothie.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
 - [Miso Soup](recipes/miso-soup.md)
