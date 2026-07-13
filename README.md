@@ -39,6 +39,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
+- [Crispy Baked Tofu](recipes/crispy-baked-tofu.md)
 - [Cucumber Salad](recipes/cucumber-salad.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
