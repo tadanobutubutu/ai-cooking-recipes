@@ -26,6 +26,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Cheese Quesadilla](recipes/cheese-quesadilla.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
+- [Chicken and Rice](recipes/chicken-and-rice.md)
 - [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Fajitas](recipes/chicken-fajitas.md)
 - [Chicken Fried Rice](recipes/chicken-fried-rice.md)
