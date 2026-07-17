@@ -88,6 +88,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Shrimp Fried Rice](recipes/shrimp-fried-rice.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
+- [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Tofu Stir Fry](recipes/tofu-stir-fry.md)
