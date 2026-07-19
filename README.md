@@ -82,6 +82,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Roasted Asparagus](recipes/roasted-asparagus.md)
 - [Roasted Broccoli](recipes/roasted-broccoli.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
+- [Roasted Cauliflower](recipes/roasted-cauliflower.md)
 - [Roasted Potatoes](recipes/roasted-potatoes.md)
 - [Roasted Zucchini](recipes/roasted-zucchini.md)
 - [Scrambled Eggs](recipes/scrambled-eggs.md)
