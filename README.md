@@ -99,6 +99,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Vegan Chili](recipes/vegan-chili.md)
 - [Vegetable Curry](recipes/vegetable-curry.md)
+- [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
 - [Vegetable Soup](recipes/vegetable-soup.md)
 - [Vegetable Stir Fry](recipes/vegetable-stir-fry.md)
 
