@@ -88,6 +88,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Scrambled Eggs](recipes/scrambled-eggs.md)
 - [Shakshuka](recipes/shakshuka.md)
 - [Shrimp Fried Rice](recipes/shrimp-fried-rice.md)
+- [Shrimp Scampi](recipes/shrimp-scampi.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
