@@ -8,6 +8,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 
 ## Recipe List
 
+- [Apple Crumble](recipes/apple-crumble.md)
 - [Avocado Toast](recipes/avocado-toast.md)
 - [Baked Potato](recipes/baked-potato.md)
 - [Baked Salmon](recipes/baked-salmon.md)
