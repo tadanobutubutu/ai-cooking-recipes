@@ -80,6 +80,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Pork Chops](recipes/pork-chops.md)
 - [Potato Salad](recipes/potato-salad.md)
 - [Quinoa Salad](recipes/quinoa-salad.md)
+- [Ratatouille](recipes/ratatouille.md)
 - [Roasted Asparagus](recipes/roasted-asparagus.md)
 - [Roasted Broccoli](recipes/roasted-broccoli.md)
 - [Roasted Carrots](recipes/roasted-carrots.md)
