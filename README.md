@@ -54,6 +54,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Mashed Potatoes](recipes/garlic-mashed-potatoes.md)
 - [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
+- [Grilled Chicken](recipes/grilled-chicken.md)
 - [Guacamole](recipes/guacamole.md)
 - [Ham and Cheese Sandwich](recipes/ham-and-cheese-sandwich.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
