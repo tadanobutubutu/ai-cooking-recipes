@@ -39,6 +39,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Salad Sandwich](recipes/chicken-salad-sandwich.md)
 - [Chicken Tacos](recipes/chicken-tacos.md)
 - [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
+- [Chocolate Chip Cookies](recipes/chocolate-chip-cookies.md)
 - [Cinnamon Rolls](recipes/cinnamon-rolls.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
