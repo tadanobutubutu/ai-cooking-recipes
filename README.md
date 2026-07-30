@@ -13,6 +13,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Baked Potato](recipes/baked-potato.md)
 - [Baked Salmon](recipes/baked-salmon.md)
 - [Baked Sweet Potato](recipes/baked-sweet-potato.md)
+- [Baked Ziti](recipes/baked-ziti.md)
 - [Banana Pancakes](recipes/banana-pancakes.md)
 - [Beef and Broccoli](recipes/beef-and-broccoli.md)
 - [Beef Burgers](recipes/beef-burgers.md)
