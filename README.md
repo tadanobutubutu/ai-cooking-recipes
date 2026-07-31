@@ -80,6 +80,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Oatmeal](recipes/oatmeal.md)
 - [Omelette](recipes/omelette.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
+- [Pesto Chicken](recipes/pesto-chicken.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
 - [Pork Chops](recipes/pork-chops.md)
 - [Potato Salad](recipes/potato-salad.md)
