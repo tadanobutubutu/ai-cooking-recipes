@@ -107,6 +107,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 - [Tomato Salad](recipes/tomato-salad.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
+- [Turkey Burgers](recipes/turkey-burgers.md)
 - [Vegan Chili](recipes/vegan-chili.md)
 - [Vegetable Curry](recipes/vegetable-curry.md)
 - [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
