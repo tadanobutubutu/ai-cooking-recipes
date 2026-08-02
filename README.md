@@ -39,6 +39,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Piccata](recipes/chicken-piccata.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Chicken Salad Sandwich](recipes/chicken-salad-sandwich.md)
+- [Chicken Stir Fry](recipes/chicken-stir-fry.md)
 - [Chicken Tacos](recipes/chicken-tacos.md)
 - [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
 - [Chocolate Chip Cookies](recipes/chocolate-chip-cookies.md)
