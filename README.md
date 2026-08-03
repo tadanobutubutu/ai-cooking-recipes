@@ -50,6 +50,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Cucumber Salad](recipes/cucumber-salad.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
+- [French Onion Soup](recipes/french-onion-soup.md)
 - [French Toast](recipes/french-toast.md)
 - [Fried Eggs](recipes/fried-eggs.md)
 - [Garlic Bread](recipes/garlic-bread.md)
