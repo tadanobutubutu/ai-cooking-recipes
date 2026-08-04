@@ -67,6 +67,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
 - [Lemon Herb Chicken](recipes/lemon-herb-chicken.md)
 - [Lemon Herb Roasted Chicken](recipes/lemon-herb-roasted-chicken.md)
+- [Lemon Pepper Chicken](recipes/lemon-pepper-chicken.md)
 - [Lentil Soup](recipes/lentil-soup.md)
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Macaroni Salad](recipes/macaroni-salad.md)
