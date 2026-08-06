@@ -24,6 +24,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
 - [BLT Sandwich](recipes/blt-sandwich.md)
+- [Blueberry Muffins](recipes/blueberry-muffins.md)
 - [Caesar Salad](recipes/caesar-salad.md)
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Cheese Omelette](recipes/cheese-omelette.md)
