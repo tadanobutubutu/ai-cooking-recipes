@@ -81,6 +81,7 @@ jobs:
 
       - name: Run JAIPilot generate and push changes
         uses: JAIPilot/jaipilot-cli@action-v1
+        continue-on-error: true
         env:
           JAIPILOT_BACKEND_URL: https://otxfylhjrlaesjagfhfi.supabase.co
         with:
