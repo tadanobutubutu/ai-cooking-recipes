@@ -107,6 +107,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
+- [Teriyaki Salmon](recipes/teriyaki-salmon.md)
 - [Tofu Scramble](recipes/tofu-scramble.md)
 - [Tofu Stir Fry](recipes/tofu-stir-fry.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
