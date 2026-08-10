@@ -88,6 +88,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Chicken](recipes/pesto-chicken.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
+- [Pico de Gallo](recipes/pico-de-gallo.md)
 - [Pork Chops](recipes/pork-chops.md)
 - [Pork Fried Rice](recipes/pork-fried-rice.md)
 - [Potato Salad](recipes/potato-salad.md)
