@@ -56,6 +56,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [French Onion Soup](recipes/french-onion-soup.md)
 - [French Toast](recipes/french-toast.md)
 - [Fried Eggs](recipes/fried-eggs.md)
+- [Fruit Salad](recipes/fruit-salad.md)
 - [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Garlic Butter Steak Bites](recipes/garlic-butter-steak-bites.md)
