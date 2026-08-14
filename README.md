@@ -29,6 +29,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
 - [Caesar Salad](recipes/caesar-salad.md)
 - [Caprese Salad](recipes/caprese-salad.md)
+- [Caprese Sandwich](recipes/caprese-sandwich.md)
 - [Cheese Omelette](recipes/cheese-omelette.md)
 - [Cheese Quesadilla](recipes/cheese-quesadilla.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
