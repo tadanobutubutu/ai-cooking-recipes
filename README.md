@@ -68,6 +68,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Grilled Chicken](recipes/grilled-chicken.md)
 - [Guacamole](recipes/guacamole.md)
 - [Ham and Cheese Sandwich](recipes/ham-and-cheese-sandwich.md)
+- [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
