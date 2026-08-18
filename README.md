@@ -91,6 +91,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mushroom Stroganoff](recipes/mushroom-stroganoff.md)
 - [Oatmeal](recipes/oatmeal.md)
 - [Omelette](recipes/omelette.md)
+- [Pad Thai](recipes/pad-thai.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
 - [Pesto Chicken](recipes/pesto-chicken.md)
 - [Pesto Pasta](recipes/pesto-pasta.md)
