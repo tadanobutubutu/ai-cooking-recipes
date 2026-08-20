@@ -125,6 +125,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tomato and Egg Stir Fry](recipes/tomato-and-egg-stir-fry.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Turkey Burgers](recipes/turkey-burgers.md)
+- [Turkey Meatballs](recipes/turkey-meatballs.md)
 - [Vegan Chili](recipes/vegan-chili.md)
 - [Vegetable Curry](recipes/vegetable-curry.md)
 - [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
