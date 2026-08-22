@@ -53,6 +53,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Crispy Baked Tofu](recipes/crispy-baked-tofu.md)
 - [Cucumber Salad](recipes/cucumber-salad.md)
+- [Deviled Eggs](recipes/deviled-eggs.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
 - [Fish Tacos](recipes/fish-tacos.md)
