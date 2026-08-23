@@ -36,6 +36,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken and Rice](recipes/chicken-and-rice.md)
 - [Chicken Curry](recipes/chicken-curry.md)
+- [Chicken Enchiladas](recipes/chicken-enchiladas.md)
 - [Chicken Fajitas](recipes/chicken-fajitas.md)
 - [Chicken Fried Rice](recipes/chicken-fried-rice.md)
 - [Chicken Katsu](recipes/chicken-katsu.md)
