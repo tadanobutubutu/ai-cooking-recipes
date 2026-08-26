@@ -119,6 +119,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Spaghetti Aglio e Olio](recipes/spaghetti-aglio-e-olio.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
+- [Spaghetti and Meatballs](recipes/spaghetti-and-meatballs.md)
 - [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
