@@ -28,6 +28,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [BLT Sandwich](recipes/blt-sandwich.md)
 - [Blueberry Muffins](recipes/blueberry-muffins.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
+- [Butternut Squash Soup](recipes/butternut-squash-soup.md)
 - [Cacio e Pepe](recipes/cacio-e-pepe.md)
 - [Caesar Salad](recipes/caesar-salad.md)
 - [Caprese Salad](recipes/caprese-salad.md)
