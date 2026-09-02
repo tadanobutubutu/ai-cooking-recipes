@@ -71,6 +71,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Garlic Butter Noodles](recipes/garlic-butter-noodles.md)
+- [Garlic Butter Salmon](recipes/garlic-butter-salmon.md)
 - [Garlic Butter Steak Bites](recipes/garlic-butter-steak-bites.md)
 - [Garlic Mashed Potatoes](recipes/garlic-mashed-potatoes.md)
 - [Greek Salad](recipes/greek-salad.md)
