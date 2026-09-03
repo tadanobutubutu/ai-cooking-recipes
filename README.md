@@ -26,6 +26,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Stew](recipes/beef-stew.md)
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
+- [Black Bean Soup](recipes/black-bean-soup.md)
 - [BLT Sandwich](recipes/blt-sandwich.md)
 - [Blueberry Muffins](recipes/blueberry-muffins.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
