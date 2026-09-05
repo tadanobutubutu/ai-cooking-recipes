@@ -84,6 +84,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
+- [Lemon Garlic Pasta](recipes/lemon-garlic-pasta.md)
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
 - [Lemon Herb Chicken](recipes/lemon-herb-chicken.md)
 - [Lemon Herb Roasted Chicken](recipes/lemon-herb-roasted-chicken.md)
