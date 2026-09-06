@@ -146,6 +146,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Vegetable Curry](recipes/vegetable-curry.md)
 - [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
 - [Vegetable Lasagna](recipes/vegetable-lasagna.md)
+- [Vegetable Omelette](recipes/vegetable-omelette.md)
 - [Vegetable Soup](recipes/vegetable-soup.md)
 - [Vegetable Stir Fry](recipes/vegetable-stir-fry.md)
 
