@@ -55,6 +55,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chocolate Brownies](recipes/chocolate-brownies.md)
 - [Chocolate Chip Cookies](recipes/chocolate-chip-cookies.md)
 - [Cinnamon Rolls](recipes/cinnamon-rolls.md)
+- [Classic Meatloaf](recipes/classic-meatloaf.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Coleslaw](recipes/coleslaw.md)
