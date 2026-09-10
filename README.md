@@ -145,6 +145,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Turkey Burgers](recipes/turkey-burgers.md)
 - [Turkey Meatballs](recipes/turkey-meatballs.md)
+- [Turkey Sandwich](recipes/turkey-sandwich.md)
 - [Vegan Chili](recipes/vegan-chili.md)
 - [Vegetable Curry](recipes/vegetable-curry.md)
 - [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
