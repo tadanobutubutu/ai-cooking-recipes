@@ -51,6 +51,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Salad Sandwich](recipes/chicken-salad-sandwich.md)
 - [Chicken Stir Fry](recipes/chicken-stir-fry.md)
 - [Chicken Tacos](recipes/chicken-tacos.md)
+- [Chicken Tenders](recipes/chicken-tenders.md)
 - [Chicken Tikka Masala](recipes/chicken-tikka-masala.md)
 - [Chocolate Brownies](recipes/chocolate-brownies.md)
 - [Chocolate Chip Cookies](recipes/chocolate-chip-cookies.md)
