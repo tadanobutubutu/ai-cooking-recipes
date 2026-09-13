@@ -73,6 +73,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [French Toast](recipes/french-toast.md)
 - [Fried Eggs](recipes/fried-eggs.md)
 - [Fruit Salad](recipes/fruit-salad.md)
+- [Fruit Smoothie](recipes/fruit-smoothie.md)
 - [Garlic Bread](recipes/garlic-bread.md)
 - [Garlic Butter Chicken](recipes/garlic-butter-chicken.md)
 - [Garlic Butter Noodles](recipes/garlic-butter-noodles.md)
