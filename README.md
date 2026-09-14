@@ -68,6 +68,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Drop Soup](recipes/egg-drop-soup.md)
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
+- [Eggplant Parmesan](recipes/eggplant-parmesan.md)
 - [Fish Tacos](recipes/fish-tacos.md)
 - [French Onion Soup](recipes/french-onion-soup.md)
 - [French Toast](recipes/french-toast.md)
