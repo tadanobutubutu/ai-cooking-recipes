@@ -102,6 +102,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mashed Sweet Potatoes](recipes/mashed-sweet-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
+- [Minestrone Soup](recipes/minestrone-soup.md)
 - [Miso Soup](recipes/miso-soup.md)
 - [Mushroom Omelette](recipes/mushroom-omelette.md)
 - [Mushroom Pasta](recipes/mushroom-pasta.md)
