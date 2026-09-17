@@ -71,6 +71,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
 - [Eggplant Parmesan](recipes/eggplant-parmesan.md)
 - [Fish Tacos](recipes/fish-tacos.md)
+- [French Bread Pizza](recipes/french-bread-pizza.md)
 - [French Onion Soup](recipes/french-onion-soup.md)
 - [French Toast](recipes/french-toast.md)
 - [Fried Eggs](recipes/fried-eggs.md)
