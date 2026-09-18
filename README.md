@@ -62,6 +62,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
 - [Coleslaw](recipes/coleslaw.md)
 - [Corn Chowder](recipes/corn-chowder.md)
+- [Creamy Mushroom Risotto](recipes/creamy-mushroom-risotto.md)
 - [Creamy Tuscan Chicken](recipes/creamy-tuscan-chicken.md)
 - [Crispy Baked Tofu](recipes/crispy-baked-tofu.md)
 - [Cucumber Salad](recipes/cucumber-salad.md)
