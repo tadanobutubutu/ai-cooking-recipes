@@ -11,6 +11,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Apple Crumble](recipes/apple-crumble.md)
 - [Avocado Salad](recipes/avocado-salad.md)
 - [Avocado Toast](recipes/avocado-toast.md)
+- [Baked Chicken Wings](recipes/baked-chicken-wings.md)
 - [Baked Potato](recipes/baked-potato.md)
 - [Baked Salmon](recipes/baked-salmon.md)
 - [Baked Sweet Potato](recipes/baked-sweet-potato.md)
