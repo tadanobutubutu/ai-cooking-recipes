@@ -152,6 +152,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
 - [Tomato Salad](recipes/tomato-salad.md)
 - [Tomato and Egg Stir Fry](recipes/tomato-and-egg-stir-fry.md)
+- [Tuna Melt](recipes/tuna-melt.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Turkey Burgers](recipes/turkey-burgers.md)
 - [Turkey Meatballs](recipes/turkey-meatballs.md)
