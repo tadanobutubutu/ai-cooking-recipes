@@ -139,6 +139,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Shrimp Fried Rice](recipes/shrimp-fried-rice.md)
 - [Shrimp Scampi](recipes/shrimp-scampi.md)
 - [Shrimp Tacos](recipes/shrimp-tacos.md)
+- [Sloppy Joes](recipes/sloppy-joes.md)
 - [Spaghetti Aglio e Olio](recipes/spaghetti-aglio-e-olio.md)
 - [Spaghetti Bolognese](recipes/spaghetti-bolognese.md)
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
