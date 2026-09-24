@@ -25,6 +25,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Beef Fajitas](recipes/beef-fajitas.md)
 - [Beef Fried Rice](recipes/beef-fried-rice.md)
 - [Beef Stew](recipes/beef-stew.md)
+- [Beef Stir Fry](recipes/beef-stir-fry.md)
 - [Beef Stroganoff](recipes/beef-stroganoff.md)
 - [Beef Tacos](recipes/beef-tacos.md)
 - [Black Bean Soup](recipes/black-bean-soup.md)
