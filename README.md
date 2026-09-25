@@ -31,6 +31,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Black Bean Soup](recipes/black-bean-soup.md)
 - [BLT Sandwich](recipes/blt-sandwich.md)
 - [Blueberry Muffins](recipes/blueberry-muffins.md)
+- [Blueberry Pancakes](recipes/blueberry-pancakes.md)
 - [Breakfast Burrito](recipes/breakfast-burrito.md)
 - [Broccoli Cheddar Soup](recipes/broccoli-cheddar-soup.md)
 - [Butternut Squash Soup](recipes/butternut-squash-soup.md)
