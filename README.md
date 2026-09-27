@@ -148,6 +148,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Spaghetti Carbonara](recipes/spaghetti-carbonara.md)
 - [Spaghetti and Meatballs](recipes/spaghetti-and-meatballs.md)
 - [Spinach Artichoke Dip](recipes/spinach-artichoke-dip.md)
+- [Spinach Omelette](recipes/spinach-omelette.md)
 - [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
