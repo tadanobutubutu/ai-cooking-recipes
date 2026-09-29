@@ -9,6 +9,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 ## Recipe List
 
 - [Apple Crumble](recipes/apple-crumble.md)
+- [Apple Pie](recipes/apple-pie.md)
 - [Avocado Salad](recipes/avocado-salad.md)
 - [Avocado Toast](recipes/avocado-toast.md)
 - [Baked Apples](recipes/baked-apples.md)
