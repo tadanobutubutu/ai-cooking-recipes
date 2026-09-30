@@ -20,6 +20,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Baked Ziti](recipes/baked-ziti.md)
 - [Banana Bread](recipes/banana-bread.md)
 - [Banana Pancakes](recipes/banana-pancakes.md)
+- [Banana Smoothie](recipes/banana-smoothie.md)
 - [Beef and Broccoli](recipes/beef-and-broccoli.md)
 - [Beef Burgers](recipes/beef-burgers.md)
 - [Beef Burrito](recipes/beef-burrito.md)
