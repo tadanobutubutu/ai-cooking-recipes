@@ -95,6 +95,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Grilled Chicken](recipes/grilled-chicken.md)
+- [Grilled Salmon](recipes/grilled-salmon.md)
 - [Guacamole](recipes/guacamole.md)
 - [Ham and Cheese Sandwich](recipes/ham-and-cheese-sandwich.md)
 - [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
