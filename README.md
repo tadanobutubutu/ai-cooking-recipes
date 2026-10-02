@@ -111,6 +111,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Macaroni Salad](recipes/macaroni-salad.md)
 - [Mango Smoothie](recipes/mango-smoothie.md)
 - [Margherita Pizza](recipes/margherita-pizza.md)
+- [Mashed Cauliflower](recipes/mashed-cauliflower.md)
 - [Mashed Potatoes](recipes/mashed-potatoes.md)
 - [Mashed Sweet Potatoes](recipes/mashed-sweet-potatoes.md)
 - [Meatball Sub](recipes/meatball-sub.md)
