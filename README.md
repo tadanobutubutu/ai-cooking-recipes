@@ -79,6 +79,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Eggplant Parmesan](recipes/eggplant-parmesan.md)
 - [Fish Tacos](recipes/fish-tacos.md)
 - [French Bread Pizza](recipes/french-bread-pizza.md)
+- [French Crepes](recipes/french-crepes.md)
 - [French Fries](recipes/french-fries.md)
 - [French Onion Soup](recipes/french-onion-soup.md)
 - [French Toast](recipes/french-toast.md)
