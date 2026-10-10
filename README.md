@@ -125,6 +125,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
 - [Mushroom Soup](recipes/mushroom-soup.md)
 - [Mushroom Stroganoff](recipes/mushroom-stroganoff.md)
+- [Mushroom Toast](recipes/mushroom-toast.md)
 - [Oatmeal](recipes/oatmeal.md)
 - [Omelette](recipes/omelette.md)
 - [Pad Thai](recipes/pad-thai.md)
