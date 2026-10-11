@@ -51,6 +51,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Fajitas](recipes/chicken-fajitas.md)
 - [Chicken Fried Rice](recipes/chicken-fried-rice.md)
 - [Chicken Katsu](recipes/chicken-katsu.md)
+- [Chicken Marsala](recipes/chicken-marsala.md)
 - [Chicken Noodle Soup](recipes/chicken-noodle-soup.md)
 - [Chicken Parmesan](recipes/chicken-parmesan.md)
 - [Chicken Piccata](recipes/chicken-piccata.md)
