@@ -101,6 +101,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Grilled Salmon](recipes/grilled-salmon.md)
 - [Guacamole](recipes/guacamole.md)
 - [Ham and Cheese Sandwich](recipes/ham-and-cheese-sandwich.md)
+- [Hash Browns](recipes/hash-browns.md)
 - [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
