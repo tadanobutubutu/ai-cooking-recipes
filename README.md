@@ -12,6 +12,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Apple Pie](recipes/apple-pie.md)
 - [Avocado Salad](recipes/avocado-salad.md)
 - [Avocado Toast](recipes/avocado-toast.md)
+- [BBQ Chicken Pizza](recipes/bbq-chicken-pizza.md)
 - [Baked Apples](recipes/baked-apples.md)
 - [Baked Chicken Wings](recipes/baked-chicken-wings.md)
 - [Baked Potato](recipes/baked-potato.md)
