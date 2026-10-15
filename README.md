@@ -96,6 +96,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Butter Steak Bites](recipes/garlic-butter-steak-bites.md)
 - [Garlic Green Beans](recipes/garlic-green-beans.md)
 - [Garlic Mashed Potatoes](recipes/garlic-mashed-potatoes.md)
+- [Garlic Roasted Potatoes](recipes/garlic-roasted-potatoes.md)
 - [Greek Salad](recipes/greek-salad.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Grilled Chicken](recipes/grilled-chicken.md)
