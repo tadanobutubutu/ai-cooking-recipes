@@ -137,6 +137,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Peanut Butter Cookies](recipes/peanut-butter-cookies.md)
 - [Peanut Butter Toast](recipes/peanut-butter-toast.md)
 - [Peanut Butter and Jelly Sandwich](recipes/peanut-butter-and-jelly-sandwich.md)
+- [Peanut Noodles](recipes/peanut-noodles.md)
 - [Penne Arrabbiata](recipes/penne-arrabbiata.md)
 - [Pepperoni Pizza](recipes/pepperoni-pizza.md)
 - [Pesto Chicken](recipes/pesto-chicken.md)
