@@ -68,6 +68,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Classic Meatloaf](recipes/classic-meatloaf.md)
 - [Classic Pancakes](recipes/classic-pancakes.md)
 - [Classic Tomato Soup](recipes/classic-tomato-soup.md)
+- [Classic Waffles](recipes/classic-waffles.md)
 - [Coleslaw](recipes/coleslaw.md)
 - [Corn Chowder](recipes/corn-chowder.md)
 - [Creamy Mushroom Risotto](recipes/creamy-mushroom-risotto.md)
