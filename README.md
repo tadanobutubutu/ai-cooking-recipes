@@ -107,6 +107,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Hash Browns](recipes/hash-browns.md)
 - [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
+- [Honey Glazed Carrots](recipes/honey-glazed-carrots.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
 - [Hummus](recipes/hummus.md)
 - [Lemon Garlic Pasta](recipes/lemon-garlic-pasta.md)
