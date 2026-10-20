@@ -106,6 +106,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Ham and Cheese Sandwich](recipes/ham-and-cheese-sandwich.md)
 - [Hash Browns](recipes/hash-browns.md)
 - [Honey Garlic Chicken](recipes/honey-garlic-chicken.md)
+- [Honey Garlic Pork Chops](recipes/honey-garlic-pork-chops.md)
 - [Honey Garlic Salmon](recipes/honey-garlic-salmon.md)
 - [Honey Glazed Carrots](recipes/honey-glazed-carrots.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
