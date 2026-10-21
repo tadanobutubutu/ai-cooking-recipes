@@ -44,6 +44,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Caprese Salad](recipes/caprese-salad.md)
 - [Caprese Sandwich](recipes/caprese-sandwich.md)
 - [Cheese Omelette](recipes/cheese-omelette.md)
+- [Cheese Pizza](recipes/cheese-pizza.md)
 - [Cheese Quesadilla](recipes/cheese-quesadilla.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
 - [Chicken and Rice](recipes/chicken-and-rice.md)
