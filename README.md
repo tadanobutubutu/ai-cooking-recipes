@@ -180,6 +180,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tofu Scramble](recipes/tofu-scramble.md)
 - [Tofu Stir Fry](recipes/tofu-stir-fry.md)
 - [Tomato Basil Pasta](recipes/tomato-basil-pasta.md)
+- [Tomato Bruschetta](recipes/tomato-bruschetta.md)
 - [Tomato Salad](recipes/tomato-salad.md)
 - [Tomato and Egg Stir Fry](recipes/tomato-and-egg-stir-fry.md)
 - [Tuna Melt](recipes/tuna-melt.md)
