@@ -183,6 +183,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tomato Bruschetta](recipes/tomato-bruschetta.md)
 - [Tomato Salad](recipes/tomato-salad.md)
 - [Tomato and Egg Stir Fry](recipes/tomato-and-egg-stir-fry.md)
+- [Tuna Casserole](recipes/tuna-casserole.md)
 - [Tuna Melt](recipes/tuna-melt.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Turkey Burgers](recipes/turkey-burgers.md)
