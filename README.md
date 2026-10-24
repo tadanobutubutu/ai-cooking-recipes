@@ -187,6 +187,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Tuna Melt](recipes/tuna-melt.md)
 - [Tuna Salad Sandwich](recipes/tuna-salad-sandwich.md)
 - [Turkey Burgers](recipes/turkey-burgers.md)
+- [Turkey Chili](recipes/turkey-chili.md)
 - [Turkey Meatballs](recipes/turkey-meatballs.md)
 - [Turkey Sandwich](recipes/turkey-sandwich.md)
 - [Vegan Chili](recipes/vegan-chili.md)
