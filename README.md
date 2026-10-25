@@ -81,6 +81,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Egg Fried Rice](recipes/egg-fried-rice.md)
 - [Egg Salad Sandwich](recipes/egg-salad-sandwich.md)
 - [Eggplant Parmesan](recipes/eggplant-parmesan.md)
+- [Eggs Benedict](recipes/eggs-benedict.md)
 - [Fish Tacos](recipes/fish-tacos.md)
 - [French Bread Pizza](recipes/french-bread-pizza.md)
 - [French Crepes](recipes/french-crepes.md)
