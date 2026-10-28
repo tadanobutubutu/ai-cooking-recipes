@@ -195,6 +195,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Turkey Sandwich](recipes/turkey-sandwich.md)
 - [Vegan Chili](recipes/vegan-chili.md)
 - [Vegetable Curry](recipes/vegetable-curry.md)
+- [Vegetable Fajitas](recipes/vegetable-fajitas.md)
 - [Vegetable Fried Rice](recipes/vegetable-fried-rice.md)
 - [Vegetable Lasagna](recipes/vegetable-lasagna.md)
 - [Vegetable Omelette](recipes/vegetable-omelette.md)
