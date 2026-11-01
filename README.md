@@ -61,6 +61,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Piccata](recipes/chicken-piccata.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Chicken Salad Sandwich](recipes/chicken-salad-sandwich.md)
+- [Chicken Shawarma](recipes/chicken-shawarma.md)
 - [Chicken Souvlaki](recipes/chicken-souvlaki.md)
 - [Chicken Stir Fry](recipes/chicken-stir-fry.md)
 - [Chicken Tacos](recipes/chicken-tacos.md)
