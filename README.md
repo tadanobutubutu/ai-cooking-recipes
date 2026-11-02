@@ -135,6 +135,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Meatball Sub](recipes/meatball-sub.md)
 - [Minestrone Soup](recipes/minestrone-soup.md)
 - [Miso Soup](recipes/miso-soup.md)
+- [Mushroom Fried Rice](recipes/mushroom-fried-rice.md)
 - [Mushroom Omelette](recipes/mushroom-omelette.md)
 - [Mushroom Pasta](recipes/mushroom-pasta.md)
 - [Mushroom Risotto](recipes/mushroom-risotto.md)
