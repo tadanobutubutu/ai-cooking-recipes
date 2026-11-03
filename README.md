@@ -118,6 +118,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Honey Glazed Carrots](recipes/honey-glazed-carrots.md)
 - [Honey Mustard Chicken](recipes/honey-mustard-chicken.md)
 - [Hummus](recipes/hummus.md)
+- [Lemon Butter Chicken](recipes/lemon-butter-chicken.md)
 - [Lemon Garlic Pasta](recipes/lemon-garlic-pasta.md)
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
 - [Lemon Herb Chicken](recipes/lemon-herb-chicken.md)
