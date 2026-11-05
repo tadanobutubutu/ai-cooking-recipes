@@ -59,6 +59,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Chicken Noodle Soup](recipes/chicken-noodle-soup.md)
 - [Chicken Parmesan](recipes/chicken-parmesan.md)
 - [Chicken Piccata](recipes/chicken-piccata.md)
+- [Chicken Pot Pie](recipes/chicken-pot-pie.md)
 - [Chicken Quesadilla](recipes/chicken-quesadilla.md)
 - [Chicken Salad Sandwich](recipes/chicken-salad-sandwich.md)
 - [Chicken Shawarma](recipes/chicken-shawarma.md)
