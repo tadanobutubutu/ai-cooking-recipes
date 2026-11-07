@@ -131,6 +131,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Macaroni and Cheese](recipes/macaroni-and-cheese.md)
 - [Macaroni Salad](recipes/macaroni-salad.md)
 - [Mango Smoothie](recipes/mango-smoothie.md)
+- [Mango Sticky Rice](recipes/mango-sticky-rice.md)
 - [Maple Glazed Carrots](recipes/maple-glazed-carrots.md)
 - [Margherita Pizza](recipes/margherita-pizza.md)
 - [Mashed Cauliflower](recipes/mashed-cauliflower.md)
