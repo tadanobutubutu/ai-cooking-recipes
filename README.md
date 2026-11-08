@@ -108,6 +108,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Garlic Mashed Potatoes](recipes/garlic-mashed-potatoes.md)
 - [Garlic Roasted Potatoes](recipes/garlic-roasted-potatoes.md)
 - [Greek Salad](recipes/greek-salad.md)
+- [Greek Yogurt Parfait](recipes/greek-yogurt-parfait.md)
 - [Grilled Cheese Sandwich](recipes/grilled-cheese-sandwich.md)
 - [Grilled Chicken](recipes/grilled-chicken.md)
 - [Grilled Salmon](recipes/grilled-salmon.md)
