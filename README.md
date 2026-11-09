@@ -49,6 +49,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Cheese Pizza](recipes/cheese-pizza.md)
 - [Cheese Quesadilla](recipes/cheese-quesadilla.md)
 - [Chicken Alfredo](recipes/chicken-alfredo.md)
+- [Chicken Burrito](recipes/chicken-burrito.md)
 - [Chicken and Rice](recipes/chicken-and-rice.md)
 - [Chicken Curry](recipes/chicken-curry.md)
 - [Chicken Enchiladas](recipes/chicken-enchiladas.md)
