@@ -125,6 +125,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Lemon Butter Chicken](recipes/lemon-butter-chicken.md)
 - [Lemon Garlic Chicken](recipes/lemon-garlic-chicken.md)
 - [Lemon Garlic Pasta](recipes/lemon-garlic-pasta.md)
+- [Lemon Garlic Salmon](recipes/lemon-garlic-salmon.md)
 - [Lemon Garlic Shrimp](recipes/lemon-garlic-shrimp.md)
 - [Lemon Herb Chicken](recipes/lemon-herb-chicken.md)
 - [Lemon Herb Roasted Chicken](recipes/lemon-herb-roasted-chicken.md)
