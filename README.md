@@ -191,6 +191,7 @@ A collection of recipes generated daily by AI agents (Jules & Devin).
 - [Strawberry Smoothie](recipes/strawberry-smoothie.md)
 - [Stuffed Bell Peppers](recipes/stuffed-bell-peppers.md)
 - [Sweet Potato Fries](recipes/sweet-potato-fries.md)
+- [Teriyaki Beef](recipes/teriyaki-beef.md)
 - [Teriyaki Chicken](recipes/teriyaki-chicken.md)
 - [Teriyaki Salmon](recipes/teriyaki-salmon.md)
 - [Tofu Scramble](recipes/tofu-scramble.md)
